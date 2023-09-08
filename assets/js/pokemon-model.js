@@ -6,3 +6,11 @@ class Pokemon {
     types = [];
     photo;
 }
+
+class Details extends Pokemon {
+    weight;
+    height;
+    species;
+    abilities;
+    eggGroup;
+}
